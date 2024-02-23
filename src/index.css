@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,900;1,900&display=swap');
+
+body {
+  @apply bg-yellow-300 flex items-center justify-center h-screen;
+  @apply font-figtree
+  
+}
+@font-face {
+  font-family: 'figtree', sans-serif;
+  src: url(fonts/Figtree-VariableFont_wght.ttf) format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'figtree-italy', sans-serif;
+  src: url(fonts/Figtree-Italic-VariableFont_wght.ttf) format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
